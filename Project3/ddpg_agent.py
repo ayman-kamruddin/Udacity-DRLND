@@ -16,7 +16,7 @@ LR_ACTOR = 1e-4         # learning rate of the actor
 LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0        # L2 weight decay
 TRAIN_EVERY = 20        # how often in terms of iterations to update the actor and critic networks
-NUM_AGENTS = 20         # number of agents
+NUM_AGENTS = 2          # number of agents
 
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
@@ -48,6 +48,7 @@ class Agent():
 
         # Noise process
         self.noise = OUNoise((NUM_AGENTS, action_size), random_seed)
+        #self.noise = OUNoise(action_size, random_seed)
 
         # Replay memory
         self.memory = ReplayBuffer(action_size, BUFFER_SIZE, BATCH_SIZE, random_seed)
