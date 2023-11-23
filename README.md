@@ -41,6 +41,4 @@ You can install the required Python packages using the following command:
 
 ## Instructions
 
-Detailed instructions for each project can be found in their respective folders. Additionally, the docs folder contains supplementary documentation, including the lecture notes and additional resources provided by Udacity.
-
-Feel free to explore the course materials, projects, and resources. If you have any questions or encounter issues, please create a GitHub issue or reach out to the community for assistance.
+Detailed instructions for each project can be found in their respective folders. 
