@@ -37,8 +37,6 @@ Make sure you have the following dependencies installed:
 - Unity ML-Agents (for project environments)
 - Jupyter Notebook (optional, for running the provided notebooks)
 
-You can install the required Python packages using the following command:
-
 ## Instructions
 
 Detailed instructions for each project can be found in their respective folders. 
