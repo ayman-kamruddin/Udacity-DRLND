@@ -38,7 +38,11 @@ Ensure you have at least the following dependencies installed:
 ## Tech Specs
 
 Vector Observation space type: continuous
+
 Vector Observation space size (per agent): 33
+
 Vector Action space type: continuous
+
 Vector Action space size (per agent): 4
+
 Number of agents: 20
