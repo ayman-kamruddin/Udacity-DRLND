@@ -9,7 +9,7 @@ import torch
 
 env = UnityEnvironment(file_name='Multi_Reacher_Windows_x86_64\Reacher_Windows_x86_64/Reacher.exe')
 #env = UnityEnvironment(file_name='Single_Reacher_Windows_x86_64\Reacher_Windows_x86_64\Reacher.exe') #single agent
-#env = UnityEnvironment(file_name='/data/Reacher_Linux_NoVis/Reacher.x86_64',no_graphics=True) #for udacity workspace
+#env = UnityEnvironment(file_name='/data/Reacher_Linux_NoVis/Reacher.x86_64',no_graphics=True) #for udacity-provided workspace
 
 
 # get the default brain
