@@ -34,3 +34,11 @@ Ensure you have at least the following dependencies installed:
 - **`model_actor.pth`**: Model weights for the actor network
 
 - **`model_critic.pth`**: Model weights for the critic network
+
+## Tech Specs
+
+Vector Observation space type: continuous
+Vector Observation space size (per agent): 33
+Vector Action space type: continuous
+Vector Action space size (per agent): 4
+Number of agents: 20
