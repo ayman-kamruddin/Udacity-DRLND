@@ -40,3 +40,5 @@ Make sure you have the following dependencies installed:
 ## Instructions
 
 Detailed instructions for each project can be found in their respective folders. 
+
+Disclaimer: Like just about any code written these days, I have extensively made use of code found around the world wide web. Putting it together and getting it to work was my effort.
